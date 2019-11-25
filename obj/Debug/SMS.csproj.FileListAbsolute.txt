@@ -1,0 +1,34 @@
+D:\Projects\Softwares\SMS\SMS\SMS\bin\SMS.dll
+D:\Projects\Softwares\SMS\SMS\SMS\bin\SMS.pdb
+D:\Projects\Softwares\SMS\SMS\SMS\bin\AjaxControlToolkit.dll
+D:\Projects\Softwares\SMS\SMS\SMS\obj\Debug\SMS.dll
+D:\Projects\Softwares\SMS\SMS\SMS\obj\Debug\SMS.pdb
+D:\Projects\Softwares\SMS\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+D:\Projects\Softwares\Hilton_Opticals\SMS\SMS\bin\SMS.dll
+D:\Projects\Softwares\Hilton_Opticals\SMS\SMS\bin\SMS.pdb
+D:\Projects\Softwares\Hilton_Opticals\SMS\SMS\bin\AjaxControlToolkit.dll
+D:\Projects\Softwares\Hilton_Opticals\SMS\SMS\obj\Debug\SMS.dll
+D:\Projects\Softwares\Hilton_Opticals\SMS\SMS\obj\Debug\SMS.pdb
+D:\Projects\Softwares\Hilton_Opticals\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+D:\Projects\Web Application\Hilton_Opticals\SMS\SMS\bin\SMS.dll
+D:\Projects\Web Application\Hilton_Opticals\SMS\SMS\bin\SMS.pdb
+D:\Projects\Web Application\Hilton_Opticals\SMS\SMS\bin\AjaxControlToolkit.dll
+D:\Projects\Web Application\Hilton_Opticals\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+D:\Projects\Web Application\Hilton_Opticals\SMS\SMS\obj\Debug\SMS.dll
+D:\Projects\Web Application\Hilton_Opticals\SMS\SMS\obj\Debug\SMS.pdb
+D:\Projects\Web Application\Hilton Opticals\SMS\SMS\bin\SMS.dll
+D:\Projects\Web Application\Hilton Opticals\SMS\SMS\bin\SMS.pdb
+D:\Projects\Web Application\Hilton Opticals\SMS\SMS\bin\AjaxControlToolkit.dll
+D:\Projects\Web Application\Hilton Opticals\SMS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+D:\Projects\Web Application\Hilton Opticals\SMS\SMS\obj\Debug\SMS.dll
+D:\Projects\Web Application\Hilton Opticals\SMS\SMS\obj\Debug\SMS.pdb
+D:\Projects\Web Application\VTC\SMS\bin\SMS.dll
+D:\Projects\Web Application\VTC\SMS\bin\SMS.pdb
+D:\Projects\Web Application\VTC\SMS\obj\Debug\SMS.dll
+D:\Projects\Web Application\VTC\SMS\obj\Debug\SMS.pdb
+D:\Projects\Web Application\VTC\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache
+D:\Projects\Web Application\POS\SMS\bin\SMS.dll
+D:\Projects\Web Application\POS\SMS\bin\SMS.pdb
+D:\Projects\Web Application\POS\SMS\obj\Debug\SMS.dll
+D:\Projects\Web Application\POS\SMS\obj\Debug\SMS.pdb
+D:\Projects\Web Application\POS\SMS\obj\Debug\SMS.csprojResolveAssemblyReference.cache

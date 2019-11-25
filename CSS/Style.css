@@ -1,0 +1,103 @@
+ul 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3399CC;
+}
+
+li 
+{
+    float: left;
+}
+
+li a 
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover 
+{
+    background-color: #CDB99C;
+	color:  #330000;
+}
+
+body 
+{
+    background: #D1CAB0;
+	margin: 0;
+}
+
+
+.content 
+{
+    max-width: 1200px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+
+.content_full_width
+{
+    max-width: 1300px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+}
+
+#wrapper 
+{
+  margin-left: 250px;
+}
+#content 
+{
+  float: right;
+  width: 98%;
+}
+#sidebar 
+{
+  float: left;
+  width: 250px;
+  margin-left: -250px;
+  background-color: #eee;
+}
+#cleared 
+{
+  clear: both;
+}
+
+.vertical-menu 
+{
+    width: 250px;
+}
+
+.vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc;
+	font-weight:bold;
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Forms
+--------------------------------------------------------------------------------------------------------------- */
+form, fieldset, legend{margin:0; padding:0; border:none;}
+legend{display:none;}
+label, input, textarea, select, button{display:block; resize:none; outline:none; color:inherit; font-size:inherit; font-family:inherit; vertical-align:middle;}
+label{margin-bottom:5px;}
+:required, :invalid{outline:none; box-shadow:none;}

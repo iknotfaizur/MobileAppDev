@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Full_Width.Master.cs" Inherits="SMS.Full_Width" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="CSS/Style.css" rel="stylesheet" type="text/css" media="all" />
+    <asp:ContentPlaceHolder ID="Head_Content" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <br>
+    <div class="content">
+        <article>
+  <header>
+	<font face="Verdana">
+    <table border="0" width="100%">
+    <tr>
+    <td>
+    <h1>Point of Sale</h1>
+    </td>
+    <td valign="top" align="right">
+      <b> Date : <asp:Label ID="lbl_Current_Date" runat="server" ForeColor="Red"></asp:Label></b>
+    </td>
+    </tr>
+    </table>
+	</font>
+  </header>
+</article>
+        <font face="Tahoma">
+            <ul>
+                <li style="font-weight:bold"><a href="Unit_Master.aspx"><i class="fa fa-tachometer" aria-hidden="true"
+                    style="font-size: 16px;"></i> DASHBOARD</a></li>
+               <%--<li style="font-weight:bold"><a href="Unit_Master.aspx"><i class="fa fa-cogs" aria-hidden="true"
+                    style="font-size: 16px;"></i> SETTINGS</a></li>--%>
+                <li style="font-weight:bold"><a href="Unit_Master.aspx"><i class="fa fa-cogs" aria-hidden="true"
+                    style="font-size: 16px;"></i> MASTER</a></li>
+                <li style="font-weight:bold"><a href="Purchase_Master.aspx"><i class="fa fa-shopping-cart" aria-hidden="true"
+                    style="font-size: 16px;"></i> PURCHASE</a></li>
+                <li style="font-weight:bold"><a href="Purchase_Master.aspx"><i class="fa fa-line-chart" aria-hidden="true"
+                    style="font-size: 16px;"></i> SALES</a></li>
+                <li style="font-weight:bold"><a href="Purchase_Master.aspx"><i class="fa fa-file" aria-hidden="true"
+                    style="font-size: 16px;"></i> REPORT</a></li>
+                <li style="font-weight:bold"><a href="Purchase_Master.aspx"><i class="fa fa-cloud-download" aria-hidden="true"
+                    style="font-size: 16px;"></i> BACK UP</a></li>
+                <li style="float: right">
+                    <asp:LinkButton ID="btn_Logout" runat="server" OnClick="btn_Logout_Click"><i class="fa fa-sign-out" aria-hidden="true" style="font-size:18px;"></i> LOG OUT</asp:LinkButton></li>
+            </ul>
+            <div>
+                <%--<div id="sidebar" style="display:none">
+                    <div class="vertical-menu">
+                        <a href="#" class="active">Sub Menu</a> 
+                        <a href="Unit_Master.aspx">Unit Master</a>
+                        <a href="Category_Master.aspx">Category Master</a>
+                        <a href="Product_Master.aspx">Product Master</a>
+                        <a href="Supplier_List.aspx">Supplier Master</a>
+                        <a href="Customer_List.aspx">Customer Master</a>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                </div>--%>
+                <div id="content">
+                    <cc1:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+                    </cc1:ToolkitScriptManager>
+                    <asp:ContentPlaceHolder ID="Main_Content" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div id="cleared">
+                </div>
+            </div>
+        </font>
+        <hr>
+        <div align="right">
+            Developed by <b>Faizur Freelancer</b>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
